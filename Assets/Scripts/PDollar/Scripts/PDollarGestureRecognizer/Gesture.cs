@@ -65,6 +65,8 @@ namespace PDollarGestureRecognizer
     /// Implements a gesture as a cloud of points (i.e., an unordered set of points).
     /// Gestures are normalized with respect to scale, translated to origin, and resampled into a fixed number of 32 points.
     /// </summary>
+
+    [System.Serializable]
     public class Gesture
     {
         public Point[] Points = null;            // gesture points (normalized)
